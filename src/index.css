@@ -1,0 +1,90 @@
+
+@import "tailwindcss";
+
+@theme {
+
+  
+  --color-background: #F7F9FB;
+  --color-foreground: #14171F;
+
+  --color-card: #FFFFFF;
+  --color-card-foreground: #14171F;
+
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: #14171F;
+
+  --color-primary: #25926B;
+  --color-primary-foreground: #FFFFFF;
+
+  --color-secondary: #E9EDF1;
+  --color-secondary-foreground: #14171F;
+
+  --color-muted: #E9EDF1;
+  --color-muted-foreground: #6A7380;
+
+  --color-accent: #D8F1E7;
+  --color-accent-foreground: #144E3A;
+
+  --color-destructive: #DC2626;
+  --color-destructive-foreground: #FFFFFF;
+
+  --color-border: #D9E0E6;
+  --color-input: #D9E0E6;
+  --color-ring: #25926B;
+
+  --radius: 0.75rem;
+
+  --color-online: #22C55E;
+  --color-occupied: #DC2626;
+  --color-available: #25926B;
+  --color-reserved: #FACC15;
+
+  --color-sidebar-background: #FAFAFA;
+  --color-sidebar-foreground: #3F3F46;
+  --color-sidebar-primary: #18181B;
+  --color-sidebar-primary-foreground: #FFFFFF;
+  --color-sidebar-accent: #F1F1F2;
+  --color-sidebar-accent-foreground: #18181B;
+  --color-sidebar-border: #E5E7EB;
+  --color-sidebar-ring: #3B82F6;
+}
+
+.dark {
+  --color-background: #020617;
+  --color-foreground: #F8FAFC;
+
+  --color-card: #020617;
+  --color-card-foreground: #F8FAFC;
+
+  --color-popover: #020617;
+  --color-popover-foreground: #F8FAFC;
+
+  --color-primary: #F8FAFC;
+  --color-primary-foreground: #1E293B;
+
+  --color-secondary: #1F2937;
+  --color-secondary-foreground: #F8FAFC;
+
+  --color-muted: #1F2937;
+  --color-muted-foreground: #94A3B8;
+
+  --color-accent: #1F2937;
+  --color-accent-foreground: #F8FAFC;
+
+  --color-destructive: #7F1D1D;
+  --color-destructive-foreground: #F8FAFC;
+
+  --color-border: #1F2937;
+  --color-input: #1F2937;
+  --color-ring: #CBD5F5;
+
+  --color-sidebar-background: #18181B;
+  --color-sidebar-foreground: #F4F4F5;
+  --color-sidebar-primary: #2563EB;
+  --color-sidebar-primary-foreground: #FFFFFF;
+  --color-sidebar-accent: #27272A;
+  --color-sidebar-accent-foreground: #F4F4F5;
+  --color-sidebar-border: #27272A;
+  --color-sidebar-ring: #3B82F6;
+}
+  
